@@ -19,6 +19,7 @@ function nextSequence(){
     randomNumber = randomNumber * 4;
     randomNumber = Math.floor(randomNumber);
 
+    
     var randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
 
